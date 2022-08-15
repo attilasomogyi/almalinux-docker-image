@@ -1,2 +1,4 @@
-FROM baseImage:latest
-RUN command
+FROM alamalinux:latest
+RUN dnf --assumeyes --refresh upgrade && \
+    dnf --assumeyes install bash sudo iproute python3 && \
+    dnf clean all
