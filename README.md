@@ -1,4 +1,4 @@
-# Daily Arch Linux Docker image
+# Daily AlmaLinux Docker image
 
 ## Support
 
